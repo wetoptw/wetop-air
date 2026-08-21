@@ -42,6 +42,15 @@ export default function Footer() {
             <h4 className="font-bold text-base mb-4">聯絡資訊</h4>
             <ul className="space-y-2 text-sm sm:text-base text-gray-200">
               <li>💬 LINE ID: @wetop</li>
+              <li>
+                📧 聯絡郵件:{' '}
+                <a
+                  href="mailto:kavowu@wetoptec.com.tw"
+                  className="hover:text-white transition-colors underline underline-offset-4"
+                >
+                  kavowu@wetoptec.com.tw
+                </a>
+              </li>
               <li>📞 03-6685878</li>
               <li>📍 新竹縣竹北市文興路一段360號</li>
               <li>⏰ 週一至週五 10:00-18:00</li>
